@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>rt_detect</name>
+  <version>0.1.0</version>
+  <description>ROS package for your inference project</description>
+  <maintainer email="782470390@qq.com">MMG</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>roscpp</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>cv_bridge</build_depend>
+  <build_depend>autoware_msgs</build_depend>
+
+  <!-- Add any additional build dependencies here -->
+
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>cv_bridge</exec_depend>
+  <exec_depend>autoware_msgs</exec_depend>
+
+  <!-- Add any additional run dependencies here -->
+
+  <export>
+    <build_depend>roscpp</build_depend>
+    <build_depend>sensor_msgs</build_depend>
+    <build_depend>cv_bridge</build_depend>
+    <build_depend>autoware_msgs</build_depend>
+
+    <!-- Add any additional build dependencies here -->
+
+    <exec_depend>roscpp</exec_depend>
+    <exec_depend>sensor_msgs</exec_depend>
+    <exec_depend>cv_bridge</exec_depend>
+    <exec_depend>autoware_msgs</exec_depend>
+
+    <!-- Add any additional run dependencies here -->
+  </export>
+</package>

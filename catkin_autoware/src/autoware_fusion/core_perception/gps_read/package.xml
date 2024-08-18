@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>gps_reader</name>
+  <version>1.12.0</version>
+  <description>The package reads GPS data from the extend_fix topic and prints latitude, longitude, altitude, and timestamp.</description>
+  <maintainer email="abraham.monrroy@tier4.jp">Abraham Monrroy</maintainer>
+  <license>Apache 2</license>
+
+  <!-- Package dependencies -->
+  <buildtool_depend>catkin</buildtool_depend>
+  
+  <depend>roscpp</depend>
+  <depend>sensor_msgs</depend>
+  <depend>gps_common</depend>
+  <depend>message_filters</depend>
+  <depend>tf</depend>
+
+</package>
+

@@ -1,0 +1,39 @@
+%YAML:1.0
+---
+
+#相机内参矩阵K
+camera_matrix: !!opencv-camera_matrix
+   rows: 3
+   cols: 3
+   dt: d
+   data: [ 5.28625e+02, 0.0, 6.4507e+02,
+          0.0, 5.2832e+02, 3.55183e+02, 
+          0, 0, 1]
+
+#相机的畸变系数
+distortion_coefficients: !!opencv-camera_matrix
+   rows: 5
+   cols: 1
+   dt: d
+   data: [ -4.12e-02, 1.110e-02, 5.540e-03, -5.00e-04, -4.00e-4 ]
+
+#相机图像分辨率
+image_pixel:
+   width: 640
+   height: 360
+
+#lidar转换到相机的旋转矩阵
+lidar_to_camera_R: !!opencv-camera_matrix
+   rows: 3
+   cols: 3
+   dt: d
+   data: [7.967514e-03, -9.999679e-01, -8.462264e-04,
+         -2.771053e-03, 8.241710e-04, -9.999958e-01,
+         9.999644e-01, 7.969825e-03, -2.764397e-03]
+
+#lidar转换到相机的平移矩阵
+lidar_to_camera_T: !!opencv-camera_matrix
+   rows: 3
+   cols: 1
+   dt: d
+   data: [-1.3777e-02, -5.5421e-02, -2.9185e-01]

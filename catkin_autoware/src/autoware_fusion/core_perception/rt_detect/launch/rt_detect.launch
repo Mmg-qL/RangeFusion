@@ -1,0 +1,9 @@
+<launch>
+    <node pkg="rt_detect" type="rt_detect" name="rt_detect" output="screen">
+        <param name="engine_path" value="$(find rt_detect)/model/rtdetr_r50vd_6x_coco_dynamic_fp16.trt" />
+        <param name="engine3dbox_path" value="$(find rt_detect)/model/test.engine" />
+        <param name="intristic" value="$(find rt_detect)/cfg/init_params.yaml" />
+        <param name="diminsion_param" value="$(find rt_detect)/cfg/class_averages.yaml" />
+        <param name="det_threshold" value="0.5" />
+    </node>
+</launch>

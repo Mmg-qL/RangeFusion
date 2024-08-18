@@ -1,0 +1,40 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/usr/file/catkin_autoware/install/yunle_sensor_msgs/include/**",
+        "/usr/file/catkin_autoware/install/op_utility/include/**",
+        "/usr/file/catkin_autoware/install/vector_map_server/include/**",
+        "/usr/file/catkin_autoware/install/op_planner/include/**",
+        "/usr/file/catkin_autoware/install/vector_map/include/**",
+        "/usr/file/catkin_autoware/install/vector_map_msgs/include/**",
+        "/usr/file/catkin_autoware/install/rosinterface/include/**",
+        "/usr/file/catkin_autoware/install/autoware_health_checker/include/**",
+        "/usr/file/catkin_autoware/install/ros_observer/include/**",
+        "/usr/file/catkin_autoware/install/range_vision_fusion/include/**",
+        "/usr/file/catkin_autoware/install/lidar_point_pillars/include/**",
+        "/usr/file/catkin_autoware/install/path_msgs/include/**",
+        "/usr/file/catkin_autoware/install/lanelet2_extension/include/**",
+        "/usr/file/catkin_autoware/install/glviewer/include/**",
+        "/usr/file/catkin_autoware/install/fastvirtualscan/include/**",
+        "/usr/file/catkin_autoware/install/autoware_system_msgs/include/**",
+        "/usr/file/catkin_autoware/install/autoware_lanelet2_msgs/include/**",
+        "/usr/file/catkin_autoware/install/autoware_config_msgs/include/**",
+        "/usr/file/catkin_autoware/install/amathutils_lib/include/**",
+        "/opt/ros/noetic/include/**",
+        "/usr/file/catkin_autoware/install/smartcar_msgs/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

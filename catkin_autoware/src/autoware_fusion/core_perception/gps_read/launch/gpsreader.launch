@@ -1,0 +1,8 @@
+<launch>
+    <!-- Start ROS node -->
+    <node name="gps_reader_node" pkg="gps_reader" type="gps_reader" output="screen">
+        <!-- Remap topic if needed -->
+        <!-- <remap from="input_topic" to="desired_topic"/> -->
+    </node>
+</launch>
+

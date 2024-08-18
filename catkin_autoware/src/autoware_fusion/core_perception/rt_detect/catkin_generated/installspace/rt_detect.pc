@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: rt_detect
+Description: Description of rt_detect
+Version: 0.1.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: roscpp sensor_msgs cv_bridge autoware_msgs

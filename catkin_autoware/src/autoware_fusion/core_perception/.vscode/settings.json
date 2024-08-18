@@ -1,0 +1,29 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/usr/file/catkin_autoware/install/yunle_sensor_msgs/lib/python3/dist-packages",
+        "/usr/file/catkin_autoware/install/vector_map_server/lib/python3/dist-packages",
+        "/usr/file/catkin_autoware/install/vector_map_msgs/lib/python3/dist-packages",
+        "/usr/file/catkin_autoware/install/smartcar_msgs/lib/python3/dist-packages",
+        "/usr/file/catkin_autoware/install/path_msgs/lib/python3/dist-packages",
+        "/usr/file/catkin_autoware/install/autoware_system_msgs/lib/python3/dist-packages",
+        "/usr/file/catkin_autoware/install/autoware_lanelet2_msgs/lib/python3/dist-packages",
+        "/usr/file/catkin_autoware/install/autoware_config_msgs/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/usr/file/catkin_autoware/install/yunle_sensor_msgs/lib/python3/dist-packages",
+        "/usr/file/catkin_autoware/install/vector_map_server/lib/python3/dist-packages",
+        "/usr/file/catkin_autoware/install/vector_map_msgs/lib/python3/dist-packages",
+        "/usr/file/catkin_autoware/install/smartcar_msgs/lib/python3/dist-packages",
+        "/usr/file/catkin_autoware/install/path_msgs/lib/python3/dist-packages",
+        "/usr/file/catkin_autoware/install/autoware_system_msgs/lib/python3/dist-packages",
+        "/usr/file/catkin_autoware/install/autoware_lanelet2_msgs/lib/python3/dist-packages",
+        "/usr/file/catkin_autoware/install/autoware_config_msgs/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ],
+    "files.associations": {
+        "*.cpp": "cpp",
+        "core": "cpp",
+        "*.ipp": "cpp"
+    }
+}
